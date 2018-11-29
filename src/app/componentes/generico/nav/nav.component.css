@@ -1,0 +1,49 @@
+
+.header {
+	background-color: #67c3cc;
+	border-bottom: 2px solid #01A6B8;
+	width: 100%;
+}
+
+.container-boton-carga {
+	float: left;
+	padding: 5px 0;
+}
+
+.container-boton-carga .boton-claro {
+	padding: 10px 30px 8px 30px;
+}
+
+.header a {
+	color: white;
+	font-family: Open Sans;
+	padding: 0 5px;
+}
+
+.header .container a:hover {
+	text-decoration: underline;
+}
+
+.navegador {
+	margin: auto; width: 50%;
+}
+
+.navegador>ul>li>a{
+	padding-top: 20px;
+	padding-bottom: 12px;
+}
+
+.header .acceso {
+	float: right;
+}
+
+.header .acceso a{
+	font-size: 13px;
+}
+
+.acceso>ul>li>a{
+	padding-top: 20px;
+	padding-bottom: 12px;
+}
+
+

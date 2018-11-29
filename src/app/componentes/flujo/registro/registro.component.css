@@ -1,0 +1,25 @@
+/* REGISTRO */
+
+.registro {
+	margin: 60px;
+}
+
+.registro .ventana {
+	margin-bottom: 60px;
+}
+
+
+.registro .pregunta {
+	text-align: center;
+}
+
+.registro .pregunta .titulo {
+	margin-bottom: 30px;
+}
+
+
+.registro .pregunta a {
+	width: 100%;
+}
+
+/* FIN REGISTRO */

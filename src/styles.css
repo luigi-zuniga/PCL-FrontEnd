@@ -1,1 +1,300 @@
 /* You can add global styles to this file, and also import other style files */
+::root {
+    margin:0;
+    padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+	padding: 0px 5px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.ventana {
+	border: 1px solid #99c9c6;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	background-color: #F5FFFE;
+}
+
+.ventana .titulo {
+	margin-bottom: 20px;
+}
+
+.ventana .bajada {
+	margin-bottom: 20px;
+	line-height: 2;
+}
+
+.ventana .fila-campos {
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.ventana .campo {
+	margin-bottom: 20px;
+}
+
+.ventana input {
+	width: 100%;
+}
+
+
+/* INPUTS Y BOTONES  */
+
+input {
+	padding: 7px 10px;
+	height: 38px;
+	border-radius: 4px;
+	border: 1px solid transparent;
+	border-color: #99c9c6;
+}
+
+input[type="checkbox"] {
+	height: auto;
+}
+
+button {
+	height: 38px;
+}
+
+select {
+	padding: 7px 10px !important;
+	height: 38px !important;
+	border-radius: 4px !important;
+	border: 1px solid transparent !important;
+	border-color: #99c9c6 !important;	
+	background-color: #E1F5F3 !important;
+	display: block;
+	width: 100%;
+	color: #99c9c6 !important;
+	font-style: italic !important;
+}
+
+select option {
+	color: red !important;
+}
+
+label {
+	margin-bottom: 10px !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-size: 16px;
+	font-family: Open Sans;
+	font-style: italic;
+    color: #99c9c6;
+    opacity: 1; /* Firefox */
+    text-align: left;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #99c9c6;
+    text-align: left;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #99c9c6;
+    text-align: left;
+}
+
+.btn.boton-claro {
+	background-color: #d3e9e7;
+	color: #6c9095;
+	border: 1px solid #99c9c6;
+}
+
+.btn.boton-claro:hover {
+	color: #6c9095;
+}
+
+.btn.boton-oscuro {
+	background-color: #378492;
+	color: white;
+}
+
+.btn.boton-oscuro:hover {
+	color: white;
+}
+
+.input-with-select {
+	width: 100%;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.boton-select {
+	height: 38px;
+	width: 100px;
+}
+
+/* FIN INPUTS Y BOTONES  */
+
+
+/* TEXTOS Y PARRAFOS  */
+
+.h1-standar {
+	font-size: 40px;
+	font-weight: bold;
+	color: #2E5A64;
+}
+
+.h1-blanco {
+	font-size: 40px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.h1-highlight {
+	font-size: 40px;
+	font-weight: bold;
+	color: #99C9C6;
+}
+
+.h2-standar {
+	font-size: 36px;
+	font-weight: bold;
+	color: #2E5A64;
+}
+
+.h2-blanco {
+	font-size: 36px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.h2-highlight {
+	font-size: 36px;
+	font-weight: bold;
+	color: #99C9C6;
+}
+
+.h2-light {
+	font-size: 36px;
+	font-weight: lighter;
+	color: #2E5A64;
+}
+
+.h3-standar {
+	font-size: 27px;
+	font-weight: bold;
+	color: #2E5A64;
+}
+
+.h3-blanco {
+	font-size: 27px;
+	color: #FFFFFF;
+}
+
+.h4-standar {
+	font-size: 20px;
+	font-weight: bold;
+	color: #2E5A64;
+}
+
+.h4-link {
+	font-size: 20px;
+	font-weight: bold;
+	color: #01A6B8;
+}
+
+.h5-standar {
+	font-size: 16px;
+	font-weight: bold;
+	color: #2E5A64;
+}
+
+.h6-standar {
+	font-size: 13px;
+	font-weight: bold;
+	color: #2E5A64;
+}
+
+.h6-link {
+	font-size: 13px;
+	font-weight: bold;
+	color: #01A6B8;
+}
+
+.p-normal {
+	color: #2E5A64;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.p-normal-blanco {
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.p-small {
+	color: #2E5A64;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.p-small-highlight {
+	color: #3F8F9D;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.p-big {
+	color: #2E5A64;
+	font-size: 20px;
+	font-weight: normal;
+	
+}
+
+.p-big-2 {
+	color: #01A6B8;
+	font-size: 20px;
+	font-weight: normal;
+	
+}
+
+.link-normal a {
+	color: #01A6B8;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.link-normal a:hover {
+	color: #01A6B8
+}
+
+.link-small a{
+	color: #01A6B8;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.link-small a:hover {
+	color: #01A6B8
+}
+
+.link-big a{
+	color: #01A6B8;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.link-big a:hover {
+	color: #01A6B8
+}
+
+
+/* FIN TEXTOS Y PARRAFOS  */
+
